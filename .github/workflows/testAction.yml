@@ -7,6 +7,6 @@ jobs:
       - uses: ./.github/actions/hello
         id: hello
         with:
-          who-to-greet: "World"
+          who-to-greet: "World "
       - run: |
-        echo "Time: ${{ steps.hello.outputs.time }}"
+          echo Time: ${{ steps.hello.outputs.time }}
