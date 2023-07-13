@@ -1,0 +1,14 @@
+name: Hello World
+author: ME
+description: Some Description
+inputs:
+  who-to-greet:
+    description: 'Who to greet'
+    required: true
+    default: Alex
+outputs:
+  time: 
+    description: "the greeting time"
+runs:
+  using: "node12"
+  main: "dist/index.js"
