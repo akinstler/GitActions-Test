@@ -5,7 +5,7 @@ try {
   //   throw new Error("Some error message");
 
   core.debug("debug message");
-  core.warining("warning message");
+  core.warning("warning message");
   core.error("Error message");
 
   const name = core.getInput("who-to-greet");
